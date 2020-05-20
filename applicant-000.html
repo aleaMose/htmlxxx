@@ -1,0 +1,91 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <tittle></tittle>
+        <style>
+        h1 {
+            font-size: 50px;
+        }
+        h6 {
+            font-size: 100px;
+        }
+        </style>
+    </head>
+    <body style="background-color:blue; margin-bottom:1000px;">
+        <form action="www.base_url_server/api/v1.com">
+            <h2 style="color: white;">PENGAJUAN PEMESANAN NEW XPANDER</h2>
+            <label for="name">Nama: </label>
+            <br />
+            <input
+              name="my_name"
+              id="name"
+              type="text"
+              placeholder="Nama Lengkap"
+              value=""
+            />
+            <br /><br />
+      
+            <label for="tanggal_lahir">Tanggal Lahir: </label>
+            <br />
+            <input
+              id="tanggal_lahir"
+              type="date"
+              placeholder="Tanggal Lahir"
+              value=""
+            />
+            <br /><br />
+      
+            <label for="umur">Umur: </label>
+            <br />
+            <input id="umur" type="number" placeholder="Usia Anda saat ini?" value="" />
+            <br /><br />
+      
+            <label for="email">Email: </label><br />
+            <input id="email" type="email" placeholder="Email yang digunakan" value="" />
+            <br /><br />
+      
+            <label for="pass">Password: </label>
+            <br />
+            <input
+              id="pass"
+              type="password"
+              placeholder="terdiri dari alfanumerik"
+              value=""
+            />
+            <br /><br />
+      
+            <label>Pengajuan Pemesanan Kendaraan: </label><br />
+            <select>
+              <option value="XPANDER GLX MANUAL">XPANDER GLX MANUAL</option>
+              <option value="XPANDER GLS MANUAL">XPANDAER GLS MANUAL</option>
+              <option value="XPANDER GLS MATIC">XPANDAER GLS MATIC</option>
+              <option value="XPANDER EXCEED MANUAL">XPANDER EXCEED MANUAL</option>
+              <option value="XPANDER EXCEED MATIC">XPANDER EXCEED MATIC</option>
+              <option value="XPANDER EXCEED MANUAL">XPANDER SPORT MANUAL</option>
+              <option value="XPANDER EXCEED MATIC">XPANDER SPORT MATIC</option>
+              <option value="XPANDER ULTIMATE MATIC">XPANDER ULTIMATE MATIC</option>
+            </select>
+            <br /><br />
+            <br /><br />
+
+            <label>Metode Pembayaran</label><br />
+            <input type="radio" id="cash" name="payment method" value="cash" />
+            <label for="Cash">Cash</label>
+            <input type="radio" id="credit" name="payment method" value="credit" />
+            <label for="Credit">Credit</label>
+            <br /><br />
+
+            <label>Pengajuan Polis Asuransi Kendaraan</label><br />
+            <input type="checkbox" id="CP" value="Proteksi Jiwa Kredit" />
+            <label for="CP">Proteksi Jiwa Kredit</label>
+            <input type="checkbox" id="ALL RISK" value="All Risk" />
+            <label for="ALL RISK">All Risk</label>
+            <input type="checkbox" id="SRCC" value="Bencana Alam" />
+            <label for="SRCC">Bencana Alam</label>
+            <br /><br />
+      
+            <input type="submit" name="submit-button" />
+          </div>
+    </body>
+</html>
